@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    top: 0;
+}
+
+header {
+    background-image: url(sesh.webp);
+    height: 150px;
+    background-size: auto;
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 80px;
+    color: white;
+}
+
+.menu {
+    justify-content: center;
+    display: flex;
+}
+
+.trimestre {
+    justify-content: center;
+    display: flex;
+}
+
+.trimestre button {
+    background-color: rgb(48, 90, 9);
+}
+
+p {
+    font-size: larger;
+    text-align: center;
+    margin-top: 50px;
+    text-align: center;
+    width: 500px;
+}
+
+img {
+    box-shadow: 0 0 5px black, 0 0 5px black, 0 0 10px black, 0 0 20px black;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+}
+
+.foto-img {
+    width: 500px;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.btn {
+    width: 10.5em;
+    height: 3.3em;
+    margin: 0.5em;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+button:hover {
+    color: black;
+}
+
+button:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+}
+
+button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.curriculo-img {
+    width: 400px;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: 0 0 5px black, 0 0 5px black, 0 0 10px black, 0 0 20px black;
+}
+
+.apresentacao {
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.apresentacao h1 {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.port {
+    justify-content: center;
+    display: flex;
+}
+
+
+.test,
+.app,
+.desenvol,
+.implant,
+.model,
+.banco,
+.humanas,
+.linguagens,
+.matematica,
+.naturezas {
+    color: black;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.btnmateria {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    display: none;
+}
+
+.botoes {
+    margin-bottom: 100px;
+}
